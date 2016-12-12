@@ -1,0 +1,14 @@
+--
+-- Information about the payment history
+--
+--    decode(b.source_type,
+--       0, 'LBX',
+--       1, 'BMF',
+--       2, 'EFT',
+--       3, 'CCARD',
+--       4, 'REFUND',
+--       5, 'PREPAYMENT',
+--       6, 'ADJ',
+--       7, 'CMF',
+--       8, 'WRITEOFF',
+--           'UNKNOWN')  source_type
